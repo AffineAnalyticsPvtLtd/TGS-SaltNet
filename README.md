@@ -18,7 +18,7 @@ Kaggle competition [TGS Salt Identification Challenge](https://www.kaggle.com/c/
 
 The code was tested with TitanX GPU/1080ti.
 
-## Author: Vishnu
+## Author: Vishnu Subramanian
 
 
 

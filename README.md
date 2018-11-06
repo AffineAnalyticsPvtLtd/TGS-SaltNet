@@ -13,6 +13,7 @@ Kaggle competition [TGS Salt Identification Challenge](https://www.kaggle.com/c/
 3. Show how to add [Deep supervision](https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/65933) to the network, and calculate loss and combine loss at different scale. 
 
 
+
 **BAM**
 
 “Bottleneck Attention Module” (BAM), a simple and efficient attention module that can be used in any CNNs. Given a 3D feature

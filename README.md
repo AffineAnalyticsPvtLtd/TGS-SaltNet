@@ -10,12 +10,14 @@ Kaggle competition [TGS Salt Identification Challenge](https://www.kaggle.com/c/
 
 2. Add intermediate layers like [BAM](http://bmvc2018.org/contents/papers/0092.pdf),[Squeeze & Excitation](https://arxiv.org/abs/1803.02579) blocks in a ResNet34 model which can be easily replicated for other network architectures.
 
- “Bottleneck Attention Module” (BAM), a simple and efficient attention module that can be used in any CNNs. Given a 3D feature
+3. Show how to add [Deep supervision](https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/65933) to the network, and calculate loss and combine loss at different scale. 
+
+**BAM**
+“Bottleneck Attention Module” (BAM), a simple and efficient attention module that can be used in any CNNs. Given a 3D feature
 map, BAM produces a 3D attention map to emphasize important elements. In BAM, we decompose the process of inferring a 3D attention map in two streams, so that the computational and parametric overhead are significantly reduced. As the channels of feature maps can be regarded as feature detectors, the two branches (spatial and channel) explicitly learn ‘what’ and ‘where’ to focus on.
 
+**Squeeze and Excitation Blocks**
 Squeeze-and-Excitation Networks (SENets) introduce a building block for CNNs that improves channel interdependencies at almost no computational cost. Main idea is add parameters to each channel of a convolutional block so that the network can adaptively adjust the weighting of each feature map
-
-3. Show how to add [Deep supervision](https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/65933) to the network, and calculate loss and combine loss at different scale. 
 
 ## Main software used
 
